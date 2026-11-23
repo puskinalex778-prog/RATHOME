@@ -1,0 +1,99 @@
+{
+  "01_rats_colors": {
+    "grid": [
+      4,
+      3
+    ],
+    "items": [
+      "white_gray_back_stripe",
+      "solid_gray",
+      "white_black_eyes",
+      "albino",
+      "black",
+      "black_hooded",
+      "gray_white_patched",
+      "black_white_belly",
+      "gray_white_belly",
+      "blue_gray",
+      "agouti",
+      "beige"
+    ]
+  },
+  "02_rats_variants_poses": {
+    "grid": [
+      4,
+      3
+    ],
+    "items": [
+      "cream",
+      "chocolate",
+      "gray_capped",
+      "siamese",
+      "himalayan",
+      "silver",
+      "white_gray_spots",
+      "white_black_spots",
+      "dumbo_gray",
+      "rex_beige",
+      "eating_pose",
+      "sleeping_pose"
+    ]
+  },
+  "03_furniture_toys": {
+    "grid": [
+      4,
+      3
+    ],
+    "items": [
+      "wood_house",
+      "hammock",
+      "sleeping_pouch",
+      "tunnel",
+      "bridge",
+      "shelf",
+      "food_bowl",
+      "water_bottle",
+      "foraging_box",
+      "puzzle_feeder",
+      "chew_sticks",
+      "nesting_paper"
+    ]
+  },
+  "04_care_ui": {
+    "grid": [
+      4,
+      4
+    ],
+    "items": [
+      "pellet_food",
+      "vegetables",
+      "fruit_treat",
+      "water_pitcher",
+      "sponge",
+      "litter_scoop",
+      "clean_hammock",
+      "brush_dustpan",
+      "coin",
+      "shop",
+      "pets",
+      "quests",
+      "settings",
+      "camera",
+      "trust",
+      "training_target"
+    ]
+  },
+  "05_habitats": {
+    "layout": "2x2 visual arrangement, not exact crop cells",
+    "items": [
+      "two_level_cage",
+      "three_level_cage",
+      "playpen",
+      "carrier"
+    ]
+  },
+  "06_room": {
+    "type": "background",
+    "file": "backgrounds/06_room.png"
+  }
+}

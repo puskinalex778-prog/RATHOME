@@ -1,0 +1,36 @@
+{
+  "name": "kryski-doma",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Крыски дома — уютный 3D-симулятор декоративных домашних крыс для Android",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "cap:sync": "npm run build && npx cap sync android",
+    "cap:open": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.0",
+    "@capacitor/app": "^7.0.1",
+    "@capacitor/core": "^7.4.0",
+    "@capacitor/haptics": "^7.0.1",
+    "@capacitor/local-notifications": "^7.0.2",
+    "lucide-react": "^0.511.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "three": "^0.176.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@types/three": "^0.176.0",
+    "@vitejs/plugin-react": "^4.4.1",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.1.3"
+  }
+}
